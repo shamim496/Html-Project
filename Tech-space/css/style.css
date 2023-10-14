@@ -1,0 +1,128 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+.uk-section.bdt-space-section{
+    height: 80vh;
+    background-image: url(../img/computer.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bdt-space-content{
+    text-align: center;
+}
+
+.bdt-space-title{
+    font-weight: 700;
+    line-height: 70px;
+    color: #fff;
+    font-size: 64px;
+    font-family: 'Heebo' Heebo;
+}
+
+
+/* section-2 */
+
+.bdt-laptop-container{
+    width: 120px;
+}
+
+.bdt-laptop-img-wrapper{
+    text-align: center;
+}
+
+.bdt-laptop-title{
+    font-family: 'Nunito Sans' Nunito Sans;
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 400;
+    vertical-align: baseline;
+
+}
+
+/* section-3 */
+
+section.bdt-monitor-section {
+    padding-top: 120px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.bdt-monitor-img{
+    margin-bottom: 20px;
+    max-width: 108%;
+}
+
+.bdt-list-navbar-img{
+    padding: 20px;
+}
+
+.uk-navbar-nav>li>a{
+    text-transform: capitalize !important;
+}
+
+.bdt-monitor-title{
+    font-family: "Heebo" Heebbo;
+    text-align: justify;
+    line-height: 23px;
+    font-size: 17px;
+    font-weight: 700;
+    margin: 0px;
+    margin-bottom: 8px;
+    vertical-align: baseline;
+}
+
+.bdt-monitor-excerpt{
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+/* section-4 */
+
+.bdt-list-title{
+    font-family: "Heebo" Heebo;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 700;
+    text-decoration: none solid;
+}
+
+button.bdt-list-button-text{
+    border: none;
+    background: none;
+    padding-left: 0px;
+    padding-top: 25px;
+    font-family: "Heebo" Heebo;
+    font-size: 15px;
+    line-height: 27px;
+    border-bottom: 2px solid blue;
+    font-weight: 700;
+    text-decoration: none solid;
+}
+
+.bdt-list-from{
+    padding-top: 20px;
+}
+
+.bdt-list-input{
+    height: 45px;
+    width: 100%;
+    color:#2c2c2c;
+    border: 0 none;
+    padding: 0 10px;
+    background: #f8f8f8;
+
+}
+input::placeholder{
+    color:#2c2c2c;
+}
+
