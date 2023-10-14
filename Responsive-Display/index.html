@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/slick.css">
+    <link rel="stylesheet" href="assets/slick-theme.css">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body class="blue">
+
+<div class="content">
+    <section class="regular">
+    <div>
+      <h3>1</h3>
+    </div>
+    <div>
+      <h3>2</h3>
+    </div>
+    <div>
+      <h3>3</h3>
+    </div>
+    <div>
+      <h3>4</h3>
+    </div>
+    <div>
+      <h3>5</h3>
+    </div>
+    <div>
+      <h3>6</h3>
+    </div>
+  </section>
+</div>
+
+
+<script src="assets/jquery.js"></script>
+<script src="assets/slick.js"></script>
+
+
+<script>
+    $(document).on('ready', function() {
+      $(".regular").slick({
+        dots: true,
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3
+      });
+});
+</script>
+
+</body>
+</html>

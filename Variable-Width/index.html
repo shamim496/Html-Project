@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variable</title>
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/style.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+</head>
+<body class="blue">
+    <div class="content">
+        <div class="variable-width">
+            <div><h3 style="width: 100px;">100</h3></div>
+            <div><h3 style="width: 100px;">200</h3></div>
+            <div><h3 style="width: 100px;">300</h3></div>
+            <div><h3 style="width: 100px;">400</h3></div>
+            <div><h3 style="width: 100px;">500</h3></div>
+            <div><h3 style="width: 100px;">600</h3></div>
+            <div><h3 style="width: 100px;">700</h3></div>
+            <div><h3 style="width: 100px;">800</h3></div>
+            <div><h3 style="width: 100px;">900</h3></div>
+            <div><h3 style="width: 100px;">1000</h3></div>
+            <div><h3 style="width: 100px;">1100</h3></div>
+            <div><h3 style="width: 100px;">1200</h3></div>
+        </div>
+    </div>
+
+    <script src="slick/jquery.js"></script>
+    <script src="slick/slick.js"></script>
+
+    <script>
+        $('.variable-width').slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        centerMode: true,
+        variableWidth: true
+        });
+    </script>
+</body>
+</html>
